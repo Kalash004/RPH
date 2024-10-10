@@ -3,6 +3,7 @@ class MyPlayer:
         C gives more points than D, player plays C and vica-versa.
     """    
     def __init__(self, pay_off_matrix:[[],[]], iteration_count=None):
+        self.
         if iteration_count is not None:
             self.iter_count = iteration_count
         else:
@@ -17,7 +18,8 @@ class MyPlayer:
     def record_last_moves(self, input1, input2):
         self.move_history.append((input1, input2))    
 
-    def count_matrix(self)
+    def count_best_move(self):
+        
 
 if __name__ == "__main__":
     
