@@ -14,9 +14,10 @@ class MyPlayer:
     def select_move(self) -> bool:
         return True
     
-    def record_last_moves(input1, input2):
+    def record_last_moves(self, input1, input2):
         self.move_history.append((input1, input2))    
 
+    def count_matrix(self)
 
 if __name__ == "__main__":
     
